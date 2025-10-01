@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-color: #f2f2f2;
+}
+/*Estilização do cabeçalho (header)*/
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.header-links a{
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.header-links a:hover{
+    text-decoration: underline;
+}
+/*Estilos basicos para os icones*/
+.icon-placeholder, .profile-placegolder{ 
+    width: 24px;
+    height: 24px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+/*Estilização do Menu Principal*/
+.container {
+    text-align: center;
+
+}    
+
+.logo {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 0px;
+}
+.search-box {
+    width: 584px;
+    padding: 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: none;
+}
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 28);
+    border-color: rgba(223, 225, 0);
+}
+.search-buttons {
+    margin-top: 20px;
+}
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    border: 1px solid #dadce0;
+}
+/*Estilizaçã do rodapé(footer)*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+}
+.footer-links-left, .footer-links-right {
+    display: flex;
+    gap: 20px;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
+
